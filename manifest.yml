@@ -1,0 +1,6 @@
+applications:
+- name: spring-helloworld-cf
+  buildpack: java_buildpack
+  path: C:\Users\739514\Desktop\spring-helloworld-cf\target\spring-helloworld-cf-0.0.1-SNAPSHOT.jar
+  services:
+  - mysql
